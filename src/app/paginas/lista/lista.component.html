@@ -1,0 +1,131 @@
+<html>
+
+<body>
+
+    <h3>Lista de contatos</h3>
+    <div class="list-wraper">
+        <ul class="list">
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="assets/images/user1.jpg" alt="">
+                </div>
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Leandro Oliveira
+                    </p>
+                    <p class="list-item__email">
+                        lpoliveira@gft.com
+                    </p>
+                </div>
+                <div class="list-item__action">
+                    <i class="material-symbols-outlined">&#xe872;</i>
+                    <i class="material-symbols-outlined">&#xf10a;</i>
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="assets/images/user1.jpg" alt="">
+                </div>
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Leandro Oliveira
+                    </p>
+                    <p class="list-item__email">
+                        lpoliveira@gft.com
+                    </p>
+                </div>
+                <div class="list-item__action">
+                    <i class="material-symbols-outlined">&#xe872;</i>
+                    <i class="material-symbols-outlined">&#xf10a;</i>
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="assets/images/user1.jpg" alt="">
+                </div>
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Leandro Oliveira
+                    </p>
+                    <p class="list-item__email">
+                        lpoliveira@gft.com
+                    </p>
+                </div>
+                <div class="list-item__action">
+                    <i class="material-symbols-outlined">&#xe872;</i>
+                    <i class="material-symbols-outlined">&#xf10a;</i>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+<style>
+    html,
+    body {
+        height: 100vh;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .list-wraper{
+        background-color: white;
+        width: 90%;
+        max-width: 500px;
+        max-height: 400px;
+        box-shadow: 0 2px 6px black;
+        border-radius: 5px;
+        }
+        
+    .list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0; 
+    }
+
+    .list-item {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 0.1rem solid rgb(179, 179, 179);
+        padding: 10px;
+        
+        
+    }
+
+    .list-item__content{
+        flex-grow: 1;
+        padding: 0 15px;
+    }
+
+    .list-item__imagem{
+        margin: auto; 
+    }
+
+    .list-item__imagem img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 1px red;  
+              
+    }
+    .list-item__name{      
+        font-size: 22px;
+        color: #5d5f5f;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .list-item__email{      
+        font-size: 15px;
+        color: #9c9c9c;
+        margin: 0;
+    }
+</style>
